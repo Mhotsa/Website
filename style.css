@@ -1,0 +1,65 @@
+#ody{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://www.smartertravel.com/wp-content/uploads/2017/08/grand-canyon-sunset-1200x627.jpg");
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-image: url("https://www.blendernation.com/wp-content/uploads/2018/10/Disney_F.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#welcome{
+    position: absolute;
+    top: 15%;
+    left: 43%;
+    text-align: center;
+    color: #fd016e;
+}
+#welcome img{
+    border-radius: 100px !important;
+}
+#MyCarousel{
+    margin-bottom: 50px;
+}
+.MyImg{ 
+    transition: transform 0.3s;
+}
+#map{
+    height: 100%;
+    width: 100%;
+}
+.MyImg:hover{
+    transform: scale(1.1)
+}
+html{
+    scroll-behavior: smooth;
+}
+.menu{
+    position: fixed;
+    background-color: #01fddc;
+    right: 30px;
+    z-index: 1;
+    list-style-type: none;
+    text-align: center;
+}
+.MyFooter{
+    background-color: aliceblue;
+    color: #303030;
+    border: 10px solid #faff05;
+}
+.menu li{
+    display: inline;
+    margin: 5px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
